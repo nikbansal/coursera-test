@@ -151,7 +151,11 @@ margin-top: -1px;
 
 	margin-left: 20px;
 	margin-right: 20px;
-	
+}
+
+.container-fluid #menu {
+
+	font-size: 3.7em;
 }
 
 }
