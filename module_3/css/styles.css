@@ -1,0 +1,157 @@
+body {
+
+	background-color: #008080;
+}
+
+
+/*Header*/
+
+#header-nav {
+
+	border-radius: 0;
+	border: 3px solid black;
+	background-color: #E5E4E2;
+
+}
+
+#head {
+
+	color: #0C090A;
+	font-weight: bold;
+}
+
+
+.navbar-brand h1 {
+
+text-align: left;
+margin-top: -1px;
+}
+
+
+#navlist  {
+
+	font-size: 20px;
+	text-align: center;
+	background-color: #848b79;
+	margin-bottom: 0;
+}
+
+#navlist a {
+
+	color: #0C090A;
+}
+
+#navlist a:hover {
+
+	background-color: #2C3539 ;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid black;
+
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -36px;
+  padding: 7px;
+}
+
+#nav-collapse {
+	font-weight: bold;
+}
+
+/*Header ends*/
+
+
+/*Container main*/
+
+#menu {
+
+	color: #0C090A;
+	text-shadow: 1px 1px #E5E4E2;
+	font-weight: bold;
+	font-size: 5em;
+}
+
+#main {
+
+	background-color: #848b79;
+	border: 3px solid black;
+	margin-top: 50px; 
+	margin-bottom: 30px;
+	margin-left: 20px;
+	margin-right: 20px;
+
+}
+
+#main h2 {
+
+	color: #0C090A;
+	font-weight: bold;
+}
+
+#main p {
+
+	color: #E5E4E2;
+}
+
+
+
+/*Large*/
+@media (min-width: 1200px) {
+
+#header-nav {
+	height: 6em;
+}
+
+}
+
+/*Medium*/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+#header-nav {
+
+	height: 6em;
+}
+
+}
+
+
+
+/*Small*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+#header-nav {
+
+	height: 6em;
+}
+
+#main {
+
+	margin-left: 20px;
+	margin-right: 20px;
+	
+    }
+
+}
+
+
+/*extra small*/
+@media (max-width: 767px){
+
+#header-nav {
+
+	border-radius: 0;
+	border: 3px solid black;
+	background-color: #E5E4E2;
+
+}
+
+#main {
+
+	margin-left: 20px;
+	margin-right: 20px;
+	
+}
+
+}
