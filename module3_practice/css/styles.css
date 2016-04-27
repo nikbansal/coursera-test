@@ -14,16 +14,10 @@ body {
 
 }
 
-#head {
-
-	color: #0C090A;
-	font-weight: bold;
-}
-
-
 .navbar-brand h1 {
 
-text-align: left;
+color: #0C090A;
+font-weight: bold;
 margin-top: -1px;
 }
 
@@ -153,8 +147,6 @@ margin-top: -1px;
 }
 
 
-
-
 /*Small*/
 @media (min-width: 768px) and (max-width: 991px) {
 
@@ -168,13 +160,6 @@ margin-top: -1px;
 
 /*extra small*/
 @media (max-width: 767px){
-
-#header-nav {
-
-	border-radius: 0;
-	border: 3px solid black;
-	background-color: #E5E4E2;
-}
 
 .container #menu {
 
