@@ -1,0 +1,184 @@
+body {
+
+	background-color: #008080;
+}
+
+
+/*Header*/
+
+#header-nav {
+
+	border-radius: 0;
+	border: 3px solid black;
+	background-color: #E5E4E2;
+
+}
+
+#head {
+
+	color: #0C090A;
+	font-weight: bold;
+}
+
+
+.navbar-brand h1 {
+
+text-align: left;
+margin-top: -1px;
+}
+
+
+#navlist  {
+
+	font-size: 20px;
+	text-align: center;
+	background-color: #848b79;
+	margin-bottom: 0;
+}
+
+#navlist a {
+
+	color: #0C090A;
+}
+
+#navlist a:hover {
+
+	background-color: #2C3539 ;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid black;
+
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -36px;
+  padding: 7px;
+}
+
+#nav-collapse {
+	font-weight: bold;
+}
+
+/*Header ends*/
+
+
+/*Container main*/
+
+#menu {
+
+	color: #0C090A;
+	text-shadow: 1px 1px #E5E4E2;
+	font-weight: bold;
+	font-size: 5em;
+}
+
+
+.container .row {
+
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.container .row h2 {
+
+	color: #0C090A;
+	font-weight: bold;
+}
+
+.container .row p {
+
+	color: #E5E4E2;
+}
+
+
+
+#sec1, #sec2, #sec3{
+	background-color: #848b79;
+	border: 2px solid black;
+	margin-top: 50px; 
+	margin-bottom: 30px;
+}
+
+/*Container main ends*/
+
+
+
+/*********MEDIA QUERIES**********/
+
+/*Large*/
+@media (min-width: 1200px) {
+
+#header-nav {
+	height: 6em;
+}
+
+.container #sec1 {
+	margin-left: -0.5em;
+	margin-right: 0.5em;
+}
+
+.container #sec2 {
+	margin-right: 0.5em;
+}
+
+.container #sec3 {
+	margin-right: -0.5em;
+}
+
+}
+
+/*Medium*/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+#header-nav {
+
+	height: 6em;
+}
+
+.container #sec1 {
+	margin-left: -0.8em;
+	margin-right: 0.5em;
+}
+
+.container #sec2 {
+	margin-right: -0.5em;
+}
+
+.container #sec3 {
+	margin-right: 2em;
+	margin-left: -0.5em;
+}
+
+}
+
+
+
+
+/*Small*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+#header-nav {
+
+	height: 6em;
+}
+
+}
+
+
+/*extra small*/
+@media (max-width: 767px){
+
+#header-nav {
+
+	border-radius: 0;
+	border: 3px solid black;
+	background-color: #E5E4E2;
+}
+
+.container #menu {
+
+	font-size: 3.7em;
+}
+
+}
